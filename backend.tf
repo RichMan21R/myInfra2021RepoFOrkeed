@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "my0bucket"
+    bucket = "my-s3-bucket-sept19"
     key = "main"
     region = "us-east-1"
-    dynamodb_table = "my-dynamodb-table"
+    dynamodb_table = "my-DBTable-sept19"
   }
 }
